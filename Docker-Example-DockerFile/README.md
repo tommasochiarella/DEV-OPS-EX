@@ -8,4 +8,4 @@ docker build -t esempio-docker-file/node-web-app:0.0.1 .
 docker images -list
 
 #run container
-docker run -p 49160:8080 -d esempio-docker-file/node-web-app:0.0.1
+docker run -p 8081:8080 -d esempio-docker-file/node-web-app:0.0.1
