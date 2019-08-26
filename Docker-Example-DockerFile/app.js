@@ -11,7 +11,7 @@ const app = express();
 app.get('/', (req, res) => {
   res.send('Hello world\n');
   //scommentare
-  console.log('Hello world');
+  //console.log('Hello world');
 });
 
 app.listen(PORT, HOST);
