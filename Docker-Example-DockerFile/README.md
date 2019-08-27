@@ -5,7 +5,7 @@ Dalla folder eseguire i seguenti comandi
 docker build -t esempio-docker-file/node-web-app:0.0.1 .
 
 #get image list
-docker images -list
+docker image -list
 
 #run container
 docker run -p 8081:8080 -d esempio-docker-file/node-web-app:0.0.1
@@ -19,7 +19,7 @@ docker run -p 8081:8080 -d esempio-docker-file/node-web-app:0.0.1
 docker build -t esempio-docker-file/node-web-app:0.0.2 .
 
 #get image list
-docker images -list
+docker image -list
 
 #run container
 docker run -p 8082:8080 -d esempio-docker-file/node-web-app:0.0.2
